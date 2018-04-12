@@ -1,5 +1,5 @@
-#This is used to collect schema stats
-
+--This is used to collect schema stats
+--By raymond cao 4/12/2018
  exec dbms_stats.gather_schema_stats( -
 ownname          => 'PLANDATA', -
 options          => 'GATHER AUTO', -
